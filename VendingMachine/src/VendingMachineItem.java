@@ -1,3 +1,5 @@
+import VendingMachineAI.VendingMachineException;
+
 /**
  * Class for items in the vending machine
  */

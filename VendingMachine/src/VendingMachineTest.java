@@ -6,6 +6,9 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
+import VendingMachineAI.VendingMachineException;
+import VendingMachineAI.VendingMachineItem;
+
 public class VendingMachineTest {
 
     private static final double DELTA = 0.0001;

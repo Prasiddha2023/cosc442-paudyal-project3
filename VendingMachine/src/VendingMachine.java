@@ -1,3 +1,6 @@
+import VendingMachineAI.VendingMachineException;
+import VendingMachineAI.VendingMachineItem;
+
 /**
  * 
  * This class represents the vending machine module. You can put items in the
