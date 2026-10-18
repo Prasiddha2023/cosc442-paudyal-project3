@@ -1,4 +1,4 @@
-import VendingMachineAI.VendingMachineException;
+package VendingMachine.src;
 
 /**
  * Class for items in the vending machine

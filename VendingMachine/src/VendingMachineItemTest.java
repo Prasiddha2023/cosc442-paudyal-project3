@@ -1,9 +1,8 @@
+package VendingMachine.src;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
-
-import VendingMachineAI.VendingMachineException;
-import VendingMachineAI.VendingMachineItem;
 
 public class VendingMachineItemTest {
 

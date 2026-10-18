@@ -1,8 +1,9 @@
-package VendingMachineAI;
+package VendingMachineAI.src;
+
 /**
  * Class for items in the vending machine
  */
-public class VendingMachineItem {
+public class VenMachItem {
 
 	// The name of the item
 	private String name;
@@ -23,10 +24,10 @@ public class VendingMachineItem {
 	 * @param price The price of the item
 	 * @throws VendingMachineException Thrown if price is less than zero
 	 */
-	public VendingMachineItem(String name, double price) throws VendingMachineException {
+	public VenMachItem(String name, double price) throws VenMachException {
 		this.name = name;
 		if (price < 0) {
-			throw new VendingMachineException(PRICE_LESS_THAN_ZERO_MESSAGE);
+			throw new VenMachException(PRICE_LESS_THAN_ZERO_MESSAGE);
 		} else {
 			this.price = price;
 		}

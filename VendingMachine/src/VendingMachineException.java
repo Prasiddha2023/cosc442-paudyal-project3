@@ -1,3 +1,5 @@
+package VendingMachine.src;
+
 /**
  * This class is for exceptions thrown by the vending machine class.
  * Examples of such exceptions include giving a price that is < 0, trying to
